@@ -191,7 +191,7 @@ img{
     color: var(--white-color);
     line-height: .8;
 }
-.home__title span{
+.home__title{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
 }
 .home__scroll{
