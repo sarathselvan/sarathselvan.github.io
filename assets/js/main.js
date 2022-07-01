@@ -41,25 +41,18 @@ function scrollActive(){
     })
 }
 
-/*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 5000,
-    reset: true
-})
 
 /*SCROLL HOME*/
 sr.reveal('.home__title', {})
-sr.reveal('.home__scroll', {delay: 200})
+sr.reveal('.home__scroll', {delay: 20})
 sr.reveal('.home__img', {origin:'right', delay: 400})
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img', {delay: 500})
-sr.reveal('.about__subtitle', {delay: 300})
-sr.reveal('.about__profession', {delay: 400})
-sr.reveal('.about__text', {delay: 500})
-sr.reveal('.about__social-icon', {delay: 600, interval: 200})
+sr.reveal('.about__img', {delay: 50})
+sr.reveal('.about__subtitle', {delay: 30})
+sr.reveal('.about__profession', {delay: 40})
+sr.reveal('.about__text', {delay: 50})
+sr.reveal('.about__social-icon', {delay: 60, interval: 20})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
