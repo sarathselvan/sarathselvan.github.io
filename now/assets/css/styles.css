@@ -12,6 +12,7 @@
     --first-color:#5361FF;
     --white-color: #fafaff;
     --dark-color: #2a3b47;
+    --dark-color2: #697680;
     --text-color: #697477;
 }
 
@@ -117,7 +118,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color:red;
+    background-color:var(--first-color);
 }
 
 /*===== NAV =====*/
@@ -147,7 +148,7 @@ img{
     color: var(--dark-color);
 }
 .nav__link:hover{
-    color:red;
+    color:var(--first-color);
 }
 .nav__logo{
     color: var(--white-color);
@@ -221,7 +222,7 @@ img{
     padding-top: 1rem;
     width: 120px;
     height: 120px;
-    background-color:red;
+    background-color:var(--first-color);
     border-radius: 50%;
     overflow: hidden;
 }
@@ -349,7 +350,7 @@ img{
 
 /* ===== FOOTER=====*/
 .footer{
-    background-color: var(--dark-color);
+    background-color: var(--dark-color2);
 }
 .footer__container{
     row-gap: 2rem;
