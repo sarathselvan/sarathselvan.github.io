@@ -258,7 +258,7 @@ img{
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
-    color: var(--black-color);
+    background-color: var(--black-color);
 }
 .skills__subtitle{
     color: var(--first-color);
@@ -270,7 +270,7 @@ img{
     margin-right: var(--mb-2);
     margin-bottom: var(--mb-3);
     padding: .25rem .5rem;
-    background-color: var(--black-color);
+    color: var(--black-color);
     border-radius: .25rem;
 }
 .skills__name:hover{
