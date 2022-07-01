@@ -177,7 +177,7 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color:black;
+    background-color:var(--first-color);
     overflow: hidden;
 }
 .home__container{
