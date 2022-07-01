@@ -190,11 +190,11 @@ img{
 .home__title{
     align-self: flex-end;
     font-size: var(--big-font-size);
-    color: var(--black-color);
+    color: var(--dark-color2);
     line-height: .8;
 }
 .home__title{   /*This line was .home__title span{ */
-    text-shadow: 0 20px 25px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
 }
 .home__scroll{
     align-self: flex-end;
