@@ -407,6 +407,7 @@ img{
     .nav__item{
         margin-left: var(--mb-4);
         margin-bottom: 0;
+        color: var(--black-color);
     }
     .nav__toggle{
         display: none;
