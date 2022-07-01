@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #c70a0a;
+    --first-color: #5361FF;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -137,7 +137,6 @@ img{
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
         transition: .5s;
-        backdrop-filter: blur(10px);
     }
 }
 .nav__item{
@@ -300,7 +299,6 @@ img{
     background-color: rgba(255,255,255,.3);
     border-radius: .5rem;
     cursor: pointer;
-    backdrop-filter: blur(10px);
     transition: .3s;
 }
 .portfolio__img:hover .portfolio__link{
