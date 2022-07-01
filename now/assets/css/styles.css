@@ -10,9 +10,9 @@
 /*===== Colores =====*/
 :root{
     --first-color: #ff0000;
-    --white-color: #FAFAFF;
-    --dark-color: #2A3B47;
-    --text-color: #697477;
+    --white-color: #000000;
+    --dark-color: #59656d;
+    --text-color: #7a8183;
     --light-color: #ffffff80;
 }
 
@@ -172,7 +172,7 @@ img{
     height: .18rem;
     left: 0;
     top: 2rem;
-    background-color:var(--light-color);
+    background-color:var(--first-color);
 }
 
 /*===== HOME =====*/
