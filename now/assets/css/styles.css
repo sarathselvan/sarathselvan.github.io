@@ -147,7 +147,7 @@ img{
     color: var(--dark-color);
 }
 .nav__link:hover{
-    color: var(--first-color);
+    color:red;
 }
 .nav__logo{
     color: var(--white-color);
