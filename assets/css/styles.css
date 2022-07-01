@@ -188,17 +188,17 @@ img{
     line-height: .8;
 }
 .home__title{   /*This line was .home__title span{ */
-    text-shadow: 0 30px 35px rgba(0,0,0,1);
+    text-shadow: 0 30px 35px rgba(0,0,.5,.5);
 }
-/*.home__scroll{
+.home__scroll{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
-}*/
-/*.home__scroll-link{
+}
+.home__scroll-link{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
     color: var(--white-color);
-}*/
+}
 .home__img{
     position: absolute;
     right: 0;
