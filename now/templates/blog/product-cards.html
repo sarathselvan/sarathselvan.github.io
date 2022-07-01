@@ -1,0 +1,166 @@
+<div id="product-card">
+    {# Multi-cloud tag cards #}
+  {% if article.tags and 2976 in article.tags %}
+    {% include "blog/product-cards/_multi_cloud.html" %}
+
+    {# Hybrid-cloud tag cards #}
+  {% elif article.tags and 3150 in article.tags %}
+    {% include "blog/product-cards/_hybrid_cloud.html" %}
+
+   {# Private-cloud tag cards #}
+  {% elif article.tags and 1342 in article.tags %}
+    {% include "blog/product-cards/_private_cloud.html" %}
+        
+   {# Public cloud tag cards #}
+  {% elif article.tags and 1350 in article.tags %}
+    {% include "blog/product-cards/_public_cloud.html" %}
+
+   {# Docker tag cards #}
+  {% elif article.tags and 1567 in article.tags %}
+    {% include "blog/product-cards/_docker-security.html" %}
+
+   {# Telco tag cards #}
+  {% elif article.tags and 1377 in article.tags %}
+    {% include "blog/product-cards/_telco.html" %}
+
+   {# IoT tag cards #}
+  {% elif article.tags and 1665 in article.tags %}
+    {% include "blog/product-cards/_services.html" %}
+    {% include "blog/product-cards/_IoT_appstore.html" %} 
+  
+  {# Finance tag cards #}
+  {% elif article.tags and 1419 in article.tags %}
+    {% include "blog/product-cards/_financialservices-awerness.html" %}
+
+  {# Rapsberry Pi tag cards #}
+  {% elif article.tags and 1672 in article.tags %}
+    {% include "blog/product-cards/_raspberry-pi_2010-livestream.html" %}
+
+  {# Kubeflow tag cards #}
+  {% elif article.tags and 2609 in article.tags %}
+    {% include "blog/product-cards/_kubeflow_jaas-bundle.html" %}
+    {% include "blog/product-cards/_kubeflow_what-is-kubeflow.html" %}
+    {% include "blog/product-cards/_kubeflow_deploy-tutorial.html" %}
+
+  {# Bootstack tag cards #}
+  {% elif article.tags and 1572 in article.tags %}
+    {% include "blog/product-cards/_bootstack_managed-private-cloud.html" %}
+
+  {# Kubernetes tag cards #}
+  {% elif article.tags and 1833 in article.tags %}
+  {% include "blog/product-cards/_kubernetes_what-is-kubernetes.html" %}
+
+  {# Ceph tag cards #}
+  {% elif article.tags and 1780 in article.tags %}
+    {% include "blog/product-cards/_ceph_what-is-ceph.html" %}
+
+  {# Bosch tag cards #}
+  {% elif article.tags and 3680 in article.tags %}
+    {% include "blog/product-cards/_bosch_ubuntu-for-iot.html" %}
+  
+  {# Legacy fallback content #}
+  {% elif article.group and article.group.slug == "kubernetes" %}
+  <div class="p-card" id="rtp-k8s">
+    <h3>
+      <a href="/kubernetes">
+        Multi-cloud Kubernetes on Ubuntu
+      </a>
+    </h3>
+    <p>
+      Deploy, scale and upgrade Kubernetes clusters across multiple physical or virtual machines with Charmed Kubernetes, with full support available.
+    </p>
+    <p><a href="/kubernetes">Get started with Charmed K8s&nbsp;&rsaquo;</a></p>
+  </div>
+  {% elif article.group and article.group.slug == "openstack" %}
+  <div class="p-card" id="rtp-openstack">
+    <h3>
+      <a href="/openstack">
+        OpenStack deployment made easy
+      </a>
+    </h3>
+    <p>
+      Ready to move from expensive, proprietary virtualisation to OpenStack? Canonical designs, builds, operates and supports OpenStack private clouds.
+    </p>
+    <p><a href="/openstack">Move to OpenStack&nbsp;&rsaquo;</a></p>
+  </div>
+  {% elif article.group and article.group.slug == "support" %}
+  <div class="p-card" id="rtp-support">
+    <h3>
+      <a href="/support">
+        Open source enterprise support
+      </a>
+    </h3>
+    <p>
+      UA Infrastructure is a single subscription for open source software, security and IaaS support, with OpenStack and Kubernetes included.
+    </p>
+    <p><a href="/support">Solve open source security and compliance&nbsp;&rsaquo;</a></p>
+  </div>
+  {% elif article.group and article.group.slug == "cloud-and-server" %}
+  <div class="p-card" id="rtp-cloud">
+    <h3>
+      <a href="/cloud">
+        Ubuntu cloud
+      </a>
+    </h3>
+    <p>
+      Ubuntu offers all the training, software infrastructure, tools,
+      services and support you need for your public and private clouds.
+    </p>
+  </div>
+  {% elif article.group and article.group.slug == "internet-of-things" %}
+  <div class="p-card" id="rtp-iot">
+    <h3>
+      <a href="/internet-of-things">
+        Internet of Things
+      </a>
+    </h3>
+    <p>
+      From home control to drones, robots and industrial systems, Ubuntu Core and Snaps provide robust security, app stores and reliable updates for all your IoT devices.
+    </p>
+  </div>
+  {% elif article.group and article.group.slug == "desktop" %}
+  <div class="p-card" id="rtp-desktop">
+    <h3>
+      <a href="/desktop">
+        Ubuntu desktop
+      </a>
+    </h3>
+    <p>
+      Learn how the Ubuntu desktop operating system powers millions of PCs and laptops around the world.
+    </p>
+  </div>
+  {% elif article.group and article.group.slug == "server" %}
+  <div class="p-card" id="rtp-server">
+    <h3>
+      <a href="/server">
+        Ubuntu Server
+      </a>
+    </h3>
+    <p>
+      The leading platform for scale-out computing, Ubuntu Server delivers the best value scale-out performance available.
+    </p>
+  </div>
+  {% else %}
+  <div class="p-card" id="rtp-contact-us">
+    <h3>
+      <a href="/about/contact-us/form">
+        Talk to us today
+      </a>
+    </h3>
+    <p>
+      Interested in running Ubuntu in your organisation?
+    </p>
+  </div>
+  {% endif %}
+</div>
+
+<script>
+  // Get all loaded cards
+  var cards = document.getElementsByClassName('js-product-card');
+  if (cards) {
+    // Roll a dice
+    var selectedIndex = Math.floor(Math.random() * cards.length);
+    // Display card
+    cards[selectedIndex].classList.remove("u-hide")
+  }
+</script>

@@ -1,0 +1,100 @@
+{% extends "download/_base_download.html" %}
+
+{% block title %}Thanks for downloading Ubuntu Server for IBM Z and LinuxONE{% endblock %}
+{% block canonical_url %}https://ubuntu.com/download/server/s390x{% endblock %}
+{% block meta_copydoc %}https://docs.google.com/document/d/1GptXtMfbgOjOmqb8DZCCTRwogkiP_cM95U9Z0gFSt7g/edit{% endblock meta_copydoc %}
+
+{% block head_extra %}
+<meta name="robots" content="noindex" />
+{% endblock %}
+
+{% block content %}
+
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1>Thank you for downloading Ubuntu for LinuxONE and z&nbsp;Systems</h1>
+      <p>Please select the release you wish to download.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <p>
+        <a  class="p-button--positive is-wide" onclick="dataLayer.push({'event' : 'GAEvent', 'eventCategory' : 'Download', 'eventAction' : 'LinuxONE server', 'eventLabel' : '{{ releases.lts.short_version }}', 'eventValue' : undefined });" href="https://cdimage.ubuntu.com/releases/{{ releases.lts.short_version }}/release/ubuntu-{{ releases.lts.full_version }}-live-server-s390x.iso">Download Ubuntu Server {{ releases.lts.full_version }} <abbr title="Long-term support">LTS</abbr></a>
+      </p>
+      {% if releases.latest.short_version > releases.lts.short_version %}
+      <p>
+        <a  class="p-button is-wide" onclick="dataLayer.push({'event' : 'GAEvent', 'eventCategory' : 'Download', 'eventAction' : 'LinuxONE server', 'eventLabel' : '{{ releases.latest.short_version }}', 'eventValue' : undefined });" href="https://cdimage.ubuntu.com/releases/{{ releases.latest.short_version }}/release/ubuntu-{{ releases.latest.full_version }}-live-server-s390x.iso">Download Ubuntu Server {{ releases.latest.full_version }}</a>
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-shallow">
+  <div class="row p-divider">
+    <div class="col-4 p-divider__block">
+      <div class="p-heading-icon--muted">
+        <div class="p-heading-icon__header">
+          {{
+            image(
+                url="https://assets.ubuntu.com/v1/5edefef9-Datasheet.svg",
+                alt="",
+                width="32",
+                height="28",
+                hi_def=True,
+                loading="lazy",
+                attrs={"class": "p-heading-icon__img p-heading-icon__img--small"},
+              ) | safe
+          }}
+          <h4 class="p-heading-icon__title">eBook</h4>
+        </div>
+      </div>
+      <h3 class="p-heading--4"><a href="https://pages.ubuntu.com/Forrester_TAP_Report_2016.html">Forrester Research - get more from the cloud</a></h3>
+    </div>
+
+    <div class="col-4 p-divider__block">
+      <div class="p-heading-icon--muted">
+        <div class="p-heading-icon__header">
+          {{
+            image(
+                url="https://assets.ubuntu.com/v1/b061c401-White+paper.svg",
+                alt="",
+                width="32",
+                height="28",
+                hi_def=True,
+                loading="lazy",
+                attrs={"class": "p-heading-icon__img p-heading-icon__img--small"},
+              ) | safe
+          }}
+          <h4 class="p-heading-icon__title">Whitepaper</h4>
+        </div>
+      </div>
+      <h3 class="p-heading--4"><a href="http://www-01.ibm.com/marketing/iwm/dre/signup?source=stg-web&S_PKG=ov47989&S_TACT=C47305CW">IDC - next generation applications on Ubuntu for LinuxONE/z</a></h3>
+    </div>
+
+    <div class="col-4 p-divider__block">
+      <div class="p-heading-icon--muted">
+        <div class="p-heading-icon__header">
+          {{
+            image(
+                url="https://assets.ubuntu.com/v1/6e184942-Webinar.svg",
+                alt="",
+                width="32",
+                height="28",
+                hi_def=True,
+                loading="lazy",
+                attrs={"class": "p-heading-icon__img p-heading-icon__img--small"},
+              ) | safe
+          }}
+          <h4 class="p-heading-icon__title">Webinar</h4>
+        </div>
+      </div>
+      <h3 class="p-heading--4"><a href="https://www.youtube.com/watch?v=WxTAd0zqruA">Discover the Cloud and scale out world of Ubuntu on IBM</a></h3>
+    </div>
+  </div>
+</section>
+
+{% with first_item="_download_server_installation", second_item="_download_server_guide", third_item="_download_helping_hands" %}{% include "shared/contextual_footers/_contextual_footer.html" %}{% endwith %}
+
+{% endblock content %}

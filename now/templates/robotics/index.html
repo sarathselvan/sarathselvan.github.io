@@ -1,0 +1,448 @@
+{% extends "robotics/base_robotics.html" %}
+
+{% block title %}Robotics{% endblock %}
+
+{% block meta_description %}Canonical supports robots. Whether that means providing an embedded OS, security patches or support with snaps and ROS. Build security into your robots future.{% endblock meta_description %}
+
+{% block meta_image %}https://assets.ubuntu.com/v1/0a342b26-robotics-overview-banner.png{% endblock meta_image %}
+
+{% block meta_copydoc %}https://docs.google.com/document/d/1JNFk2C0shH3DapKuJM8X0QfAiD1RzHvXoydn8P9mEMg/edit#{% endblock meta_copydoc %}
+
+{% block content %}
+<section class="p-strip--suru-bottomed js-livestream__intro">
+  {% include "shared/_rt-kernel-beta-banner.html" %}
+  <div class="row u-equal-height">
+    <div class="col-8">
+      <h1>Build security into your robot's future with Ubuntu</h1>
+      <h4>Tech visionaries choose Ubuntu to build ultra-secure and software-defined robots</h4>
+      <p>Ubuntu is the most popular Linux distribution for large embedded systems. As autonomous robots mature, innovative tech companies turn to Ubuntu to realise their vision of a robotic future. We are your partner in innovation.</p>
+      <p><a class="p-button--positive js-invoke-modal" data-testid="interactive-form-link" href="/internet-of-things/contact-us?product=robotics">Reach out to hear more</a></p>
+      <p><a href="/engage/robot-operating-system-choice">Read the whitepaper "Pick the right OS for your robot"&nbsp;&rsaquo;</a></p>
+    </div>
+    <div class="col-4 u-align--center u-vertically-center u-hide--medium u-hide--small">
+      {{
+        image(
+        url="https://assets.ubuntu.com/v1/29eb5a8e-Robot+arm+-+dark+grey.svg",
+        alt="",
+        width="240",
+        height="240",
+        hi_def=True,
+        loading="auto",
+        ) | safe
+      }}
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light">
+  <div class="u-fixed-width">
+    <div class="p-logo-section">
+      <h2 class="p-logo-section__title u-align--center">Proven in the field - companies using ROS on Ubuntu</h2>
+      <div class="p-logo-section__items">
+        <div class="p-logo-section__item">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/4044372b-ClearpathRobotics-logo.png",
+            alt="Clearpath",
+            width="144",
+            height="52",
+            hi_def=True,
+            loading="auto",
+            attrs={"class": "p-logo-section__logo"},
+            ) | safe
+          }}
+        </div>
+        <div class="p-logo-section__item">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/255f733c-robotis_logo.png",
+            alt="Robotis",
+            width="144",
+            height="29",
+            hi_def=True,
+            loading="lazy",
+            attrs={"class": "p-logo-section__logo"},
+            ) | safe
+          }}
+        </div>
+        <div class="p-logo-section__item">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/e8609fb4-KUKA-logo.svg",
+            alt="Kuka Robotics",
+            width="144",
+            height="25",
+            hi_def=True,
+            loading="lazy",
+            attrs={"class": "p-logo-section__logo"},
+            ) | safe
+          }}
+        </div>
+        <div class="p-logo-section__item">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/fb984e2b-ApexAI_logo.png",
+            alt="Apex.AI",
+            width="144",
+            height="37",
+            hi_def=True,
+            loading="lazy",
+            attrs={"class": "p-logo-section__logo"},
+            ) | safe
+          }}
+        </div>
+        <div class="p-logo-section__item">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/723b9e31-pal-logo.png",
+            alt="PAL Robotics",
+            width="144",
+            height="60",
+            hi_def=True,
+            loading="lazy",
+            attrs={"class": "p-logo-section__logo"},
+            ) | safe
+          }}
+        </div>
+        <div class="p-logo-section__item">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/a78c754a-locus_logo_horizon-removebg-preview.png",
+            alt="Locus Robotics",
+            width="144",
+            height="44",
+            hi_def=True,
+            loading="lazy",
+            attrs={"class": "p-logo-section__logo"},
+            ) | safe
+          }}
+
+        </div>
+        <div class="p-logo-section__item">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/9f8bc8e5-Fetch-2019-Horizontal-331x120.png",
+            alt="Fetch Robotics",
+            width="144",
+            height="52",
+            hi_def=True,
+            loading="lazy",
+            attrs={"class": "p-logo-section__logo"},
+            ) | safe
+          }}
+        </div>
+      </div>
+    </div>
+    <p class="u-align--center"><a href="https://partners.ubuntu.com/find-a-partner?technology=robotics">See all of our robotics partners</a></p>
+  </div>
+</section>
+
+<section class="p-strip">
+  <div class="u-fixed-width">
+    <p class="p-heading--2">Enhanced security for mission-critical robots</p>
+    <p>Several layers of security are stacked in Ubuntu Core to keep potential surfaces of attack as low as possible for your product deployed in the field.</p>
+    <a href="/engage/securing-ros-on-robotics-platforms-whitepaper">Read the Securing ROS on robotics platforms whitepaper&nbsp;&rsaquo;</a>
+  </div>
+</section>
+
+<section class='p-strip'>
+  <div class="row">
+    <div class="col-6">
+      <h3>System integrity: assured</h3>
+      <p>Only digitally signed software packages of your choice will be installed to your robots. Installed software is immutable and application data fully encrypted. As a result, your software is protected against corruption. Malicious software cannot be installed on your robot, generated data is safe from privacy invasions.</p>
+    </div>
+    <div class="col-6 u-hide--medium u-hide--small u-align--center">
+      {{
+        image(
+        url="https://assets.ubuntu.com/v1/338124d1-shields-security.svg",
+        alt="",
+        height="200",
+        width="350",
+        hi_def=True,
+        ) | safe
+      }}
+    </div>
+  </div>
+  <div class="u-fixed-width">
+    <hr class="p-separator" />
+  </div>
+  <div class="row">
+    <div class="col-6 u-hide--medium u-hide--small u-align--center">
+      {{
+        image(
+        url="https://assets.ubuntu.com/v1/9c80823b-confinement.svg",
+        alt="",
+        height="200",
+        width="350",
+        hi_def=True,
+        ) | safe
+      }}
+    </div>
+    <div class="col-6">
+      <h3>Each package is its own sandbox</h3>
+      <p>Each application running on your robot is confined to its own environment, adding an additional layer of security. Anomalies will never propagate through the system. The total isolation of processes and their associated data makes localisation and resolution of errors easy.</p>
+    </div>
+  </div>
+
+  <div class="u-fixed-width">
+    <hr class="p-separator" />
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <h3>Continuous security updates</h3>
+      <p>As soon as vulnerabilities become known, security patches are delivered to each robot in your fleet. Our Extended Security Maintenance offering for Ubuntu Core is active for <strong>up to ten years</strong>. You don't have to worry about CVEs, we keep your security debt at zero.</p>
+    </div>
+    <div class="col-6 u-hide--medium u-hide--small u-align--center">
+      {{
+        image(
+        url="https://assets.ubuntu.com/v1/a43d61ae-update+control.svg",
+        alt="",
+        height="185",
+        width="185",
+        hi_def=True,
+        ) | safe
+      }}
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light">
+  <div class="u-fixed-width">
+    <h2>Catalyses new business models </h2>
+    <p>Improve the return on investment for your robotic assets.</p>
+    <a href="https://www.brighttalk.com/webcast/6793/290087">Watch the app store for Linux webinar</a>
+  </div>
+</section>
+
+<section class='p-strip'>
+  <div class="row">
+    <div class="col-6">
+      <h3>New avenues for monetisation</h3>
+      <p>Public and private app stores unlock new avenues for monetisation. Earn recurring revenue, upsell add-ons to your users, and create platform ecosystems around your robots.</p>
+      <a href="/internet-of-things/appstore">Learn more about the Snap store&nbsp;&rsaquo;</a>
+    </div>
+    <div class="col-6 u-hide--medium u-hide--small u-align--center">
+      {{
+        image(
+        url="https://assets.ubuntu.com/v1/fad662b3-faster+cheaper.svg",
+        alt="",
+        height="220",
+        width="350",
+        hi_def=True,
+        ) | safe
+      }}
+    </div>
+  </div>
+
+  <div class="u-fixed-width">
+    <hr class="p-separator" />
+  </div>
+
+  <div class="row">
+    <div class="col-6 u-hide--medium u-hide--small u-align--center">
+      {{
+        image(
+        url="https://assets.ubuntu.com/v1/3089fff7-one+platform.svg",
+        alt="",
+        height="220",
+        width="350",
+        hi_def=True,
+        ) | safe
+      }}
+    </div>
+    <div class="col-6">
+      <h3>Enabling robots as a platform</h3>
+      <p>Our brand stores allow you to commercialise your robots in a way that was not possible before. Tie in vendors and resellers to your product ecosystem. The future proof technology underlying snaps will stretch the life of your robots, and transform them into evolutive platforms.</p>
+      <a href="/engage/iot-business-model">Learn more about brand stores&nbsp;&rsaquo;</a>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light">
+  <div class="u-fixed-width">
+    <h2>Ready for all boards, frameworks and applications</h2>
+    <p>We want to minimise your startup costs and time to market. That's why we have made Ubuntu compatible with the most popular frameworks and silicon.</p>
+  </div>
+
+  <div class="u-fixed-width">
+    <h3>Compatible with popular open source robotics frameworks</h3>
+  </div>
+  <div class="row u-equal-height">
+    <div class="p-card col-4">
+      <h3 class="p-card__title">ROS</h3>
+      <p class="p-card__desc">ROS modularity is best leveraged in the Ubuntu environment. Snapping ROS modules helps manage the complexity of ROS based applications.</p>
+    </div>
+    <div class="p-card col-4">
+      <h3 class="p-card__title">OpenCV</h3>
+      <p class="p-card__desc">Deep learning machine vision applications can be developed with OpenCV on top of Ubuntu.</p>
+    </div>
+    <div class="p-card col-4">
+      <h3 class="p-card__title">PX4</h3>
+      <p class="p-card__desc">Ubuntu Core is the best fit for autonomous drones. Snaps allow orchestrating the different components of the PX4 library to develop aerial robotic systems</p>
+    </div>
+  </div>
+
+  <div class="u-fixed-width u-sv3">
+    <a href="https://snapcraft.io/blog/your-first-robot-a-beginners-guide-to-ros-and-ubuntu-core-1-5">Build your robot with ROS on Ubuntu Core</a>
+  </div>
+
+  <div class="u-fixed-width">
+    <h3>Broad support for development boards</h3>
+  </div>
+
+  <div class="row u-equal-height">
+    <div class="p-card col-3">
+      <h3>Raspberry Pi</h3>
+      <hr class="u-sv1" />
+      <div class="p-card__content">
+        <a href="/download/raspberry-pi ">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/37373e4d-raspberry-pi.png",
+            alt="",
+            height="202",
+            width="293",
+            hi_def=True,
+            loading="lazy",
+            attrs={"style": "padding-top: 1rem;"}
+            ) | safe
+          }}
+        </a>
+      </div>
+    </div>
+    <div class="p-card col-3">
+      <h3>NVIDIA Jetson</h3>
+      <hr class="u-sv1" />
+      <div class="p-card__content">
+        <a href="/blog/porting-ubuntu-core-18-to-nvidia-jetson-tx1-developer-kit">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/ec75aaca-NVIDIA-Jetson.png",
+            alt="",
+            height="241",
+            width="293",
+            hi_def=True,
+            loading="lazy",
+            attrs={"style": "padding-top: 1rem;"}
+            ) | safe
+          }}
+        </a>
+      </div>
+    </div>
+    <div class="p-card col-3">
+      <h3>Xilinx Kria SOMs</h3>
+      <hr class="u-sv1" />
+      <div class="p-card__content">
+        <a href="https://www.xilinx.com/applications/industrial/robotics.html?utm_source=canonical&utm_medium=referral&utm_campaign=ubuntu&utm_content=iot_robotics&utm_term=kria_soms">
+          {{
+            image (
+            url="https://assets.ubuntu.com/v1/4ede62b5-Xilinx-board.png",
+            alt="",
+            width="330",
+            height="291",
+            hi_def=True,
+            loading="lazy",
+            ) | safe
+          }}
+        </a>
+      </div>
+    </div>
+    <div class="p-card col-3">
+      <h3>Dragonboard</h3>
+      <hr class="u-sv1" />
+      <div class="p-card__content">
+        <a href="/download/qualcomm-dragonboard-410c">
+          {{
+            image(
+            url="https://assets.ubuntu.com/v1/a64b7ee2-dragonboard.png",
+            alt="",
+            height="197",
+            width="293",
+            hi_def=True,
+            loading="lazy",
+            attrs={"style": "padding-top: 1rem;"}
+            ) | safe
+          }}
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="u-fixed-width">
+    <p><a href="https://ubuntu.com/blog/porting-ubuntu-core-18-to-nvidia-jetson-tx1-developer-kit">Read more about building Ubuntu Core for NVIDIA Jetson&nbsp;&rsaquo;</a></p>
+  </div>
+</section>
+
+{% include "robotics/shared/_learn-more-about-robotics.html" %}
+
+<section class="p-strip is-bordered">
+  <div class="u-fixed-width">
+    <p class="p-heading--2">Bootstrap for production-grade robots</p>
+    <p>This is how you can get started today:</p>
+  </div>
+
+  <div class="u-fixed-width">
+    <ol class="p-stepped-list--detailed">
+      <li class="p-stepped-list__item">
+        <h3 class="p-stepped-list__title">
+          Pick your development board
+        </h3>
+        <div class="p-stepped-list__content">
+          <p>Ubuntu is supported by popular development boards and the majority of high performance SoCs. Other boards can be enabled to work with Ubuntu: we provide full options for device enablement when needed.</p>
+          <a href="https://docs.ubuntu.com/core/en/guides/build-device/board-enablement">Read the board enablement overview</a>
+        </div>
+      </li>
+      <li class="p-stepped-list__item">
+        <h3 class="p-stepped-list__title">
+          Set up your development environment
+        </h3>
+        <div class="p-stepped-list__content">
+          <p>Set up your development toolchain with Ubuntu Server via <a href="https://multipass.run/">Multipass</a> or on your Ubuntu Desktop. Install Snapcraft to build a bespoke application stack for your target use case. Benefit from the wealth of tools and libraries available on Ubuntu, and take advantage of the strong community support.</p>
+        </div>
+      </li>
+      <li class="p-stepped-list__item">
+        <h3 class="p-stepped-list__title">
+          Create your production stack on Ubuntu Core
+        </h3>
+        <div class="p-stepped-list__content">
+          <p>Snaps allow you to package and sandbox your application stack. With Ubuntu Core and snaps, you will be able to create lean production images streamlined for the purposes of your application. Test your production image in KVM before flashing it to your board.</p>
+        </div>
+      </li>
+      <li class="p-stepped-list__item">
+        <h3 class="p-stepped-list__title">
+          Set up your service infrastructure
+        </h3>
+        <div class="p-stepped-list__content">
+          <p>Before going to production, get in touch with us to set up the infrastructure for the successful launch, maintenance and long term support of your product.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+{% include "robotics/shared/_download-make-strip.html" %}
+
+<section class="p-strip--light">
+  <div class="row u-equal-height">
+    <div class="col-4 u-hide--medium u-hide--small u-align--left">
+      {{
+        image(
+        url="https://assets.ubuntu.com/v1/c4b290c8-Contact+us.svg",
+        alt="",
+        width="280",
+        height="280",
+        hi_def=True,
+        ) | safe
+      }}
+    </div>
+    <div class="col-8 u-vertically-center">
+      <div>
+        <h2>Ready for the next steps?</h2>
+        <p>Roll out your robots with Ubuntu Core.</p>
+        <p><a class="p-button--positive js-invoke-modal" href="/internet-of-things/contact-us?product=robotics">Get in touch</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

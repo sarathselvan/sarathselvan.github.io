@@ -1,0 +1,21 @@
+{% extends "templates/one-column.html" %}
+
+{% block title %}404 Page not found{% endblock %}
+
+
+
+{% block head_extra %}{% endblock %}
+
+{% block content_head %}
+<div class="row no-border hero-box">
+	<div class="col-6">
+		<img src="https://assets.ubuntu.com/v1/bcdcf2c8-image-404.svg" alt="Error owl" width="365" />
+	</div>
+	<div class="col-6">
+		<h1>Error</h1>
+		<p>{{ error }}</p>
+	</div>
+</div><!-- / .row -->
+{% endblock %}
+{% block content %}
+{% endblock content %}

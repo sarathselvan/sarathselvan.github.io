@@ -1,0 +1,95 @@
+appliances:
+  plex:
+    name: "Plex"
+    appliance_name: "Plex Media Server"
+    url_name: "plex"
+    alias: "plexmediaserver"
+    logo: "https://assets.ubuntu.com/v1/402069bd-plex-media-server.png"
+    port: 32400
+    iso_url:
+      raspberrypi: "https://cdimage.ubuntu.com/ubuntu-core/appliances/plexmediaserver-core18-pi.img.xz"
+      pc: "https://cdimage.ubuntu.com/ubuntu-core/appliances/plexmediaserver-core18-amd64.img.xz"
+      pi2: "https://cdimage.ubuntu.com/ubuntu-core/appliances/plexmediaserver-core18-pi-armhf.img.xz"
+    checksum:
+      raspberrypi: "ed9995235ca3b01d0e81eda7f9d5e215372f2d81d41c612c14f9ca9fde4e2cad *plexmediaserver-core18-pi.img.xz"
+      pc: "876c78512afbb783f9511653e82d3ac57b3c8e9e20a4ad65ed15a2edc41a9758 *plexmediaserver-core18-amd64.img.xz"
+      pi2: "0b22901990ddefcb8777e3eae0bd86c9f1738313abaf1b33ecb9cbec9fbdee37 *plexmediaserver-core18-pi-armhf.img.xz"
+  adguard:
+    name: "AdGuard"
+    appliance_name: "AdGuard"
+    url_name: "adguard"
+    alias: "adguard-home"
+    logo: "https://assets.ubuntu.com/v1/1ec45573-AdGuard.png"
+    port: 3000
+    iso_url:
+      raspberrypi: "https://cdimage.ubuntu.com/ubuntu-core/appliances/adguard-home-core18-pi.img.xz"
+      pc: "https://cdimage.ubuntu.com/ubuntu-core/appliances/adguard-home-core18-amd64.img.xz"
+      pi2: "https://cdimage.ubuntu.com/ubuntu-core/appliances/adguard-home-core18-pi-armhf.img.xz"
+    checksum:
+      raspberrypi: "e6ce0e3485c8916ab3c1f820643fb1a69efc50380e72bbdc4f481a162b2eccf8 *adguard-home-core18-pi.img.xz"
+      pc: "e0b0bb4b33a53a0713ba7ecaa3c48ba0c1d5837a559d48e202fcfa55700e327e *adguard-home-core18-amd64.img.xz"
+      pi2: "97b3c08d2adfdd9784936c53e02715467b7d5f93ffcc9d25a9dcb99e9a171ce5 *adguard-home-core18-pi-armhf.img.xz"
+  openhab:
+    name: "OpenHAB"
+    appliance_name: "OpenHAB"
+    url_name: "openhab"
+    alias: "openhab"
+    logo: "https://assets.ubuntu.com/v1/f4632e06-openhab-logo.png"
+    port: 8080
+    iso_url:
+      raspberrypi: "https://cdimage.ubuntu.com/ubuntu-core/appliances/openhab-core18-pi.img.xz"
+      pc: "https://cdimage.ubuntu.com/ubuntu-core/appliances/openhab-core18-amd64.img.xz"
+      pi2: "https://cdimage.ubuntu.com/ubuntu-core/appliances/openhab-core18-pi-armhf.img.xz"
+    checksum:
+      raspberrypi: "8e850215077f443da015366103cca3e57cb953220afa169d1bfd1f6823b0f6f7 *openhab-core18-pi.img.xz"
+      pc: "b8c2563c9febaf46b625ce62d41069a9196f6d12bd2fac4b95e11d5a5ab0ff9b *openhab-core18-amd64.img.xz"
+      pi2: "a46bdf54d3cb2e9fa2391aa9fa67d86250676fa172b82538f13f838b1747267e *openhab-core18-pi-armhf.img.xz"
+  mosquitto:
+    name: "mosquitto"
+    appliance_name: "Mosquitto"
+    url_name: "mosquitto"
+    alias: "mosquitto"
+    logo: "https://dashboard.snapcraft.io/site_media/appmedia/2018/08/mosquitto-logo-only.svg.png"
+    port: 1883
+    iso_url:
+      raspberrypi: "https://cdimage.ubuntu.com/ubuntu-core/appliances/mosquitto-core18-pi.img.xz"
+      pc: "https://cdimage.ubuntu.com/ubuntu-core/appliances/mosquitto-core18-amd64.img.xz"
+      pi2: "https://cdimage.ubuntu.com/ubuntu-core/appliances/mosquitto-core18-pi-armhf.img.xz"
+    checksum:
+      raspberrypi: "cb5bdc4e82ab801a4b38edc8c5ae0ffc48a2e15fdcc10f528e7ae80a15137034 *mosquitto-core18-pi.img.xz"
+      pc: "5410b678e00dfc0c3e8b7a850f670eeacbb190a031c0dee5eba62da317c8344a *mosquitto-core18-amd64.img.xz"
+      pi2: "7b5be900a5f32907ba96b3d85a553cf08c46368a11ed046de4f163355794c1ee *mosquitto-core18-pi-armhf.img.xz"
+  nextcloud:
+    name: "Nextcloud"
+    appliance_name: "Nextcloud"
+    url_name: "nextcloud"
+    alias: "nextcloud"
+    logo: "https://dashboard.snapcraft.io/site_media/appmedia/2016/06/icon.svg_1.png"
+    port: 80
+    iso_url:
+      raspberrypi: "https://cdimage.ubuntu.com/ubuntu-core/appliances/nextcloud-core18-pi.img.xz"
+      pc: "https://cdimage.ubuntu.com/ubuntu-core/appliances/nextcloud-core18-amd64.img.xz"
+      pi2: "https://cdimage.ubuntu.com/ubuntu-core/appliances/nextcloud-core18-pi-armhf.img.xz"
+    checksum:
+      raspberrypi: "2b07a6461f35707baa6d93dac60263e185d17757b83d313f9d8daa3ee03de4e6 *nextcloud-core18-pi.img.xz"
+      pc: "59d4200b306b7ea2498e9e86296b67a3ad6bb8e7f16e13d4eefe9fb9dc8713f8 *nextcloud-core18-amd64.img.xz"
+      pi2: "b76716844c48c60cee14f93015fbf5b2593c4a4cd485ac0f50c54c023f43fbbf *nextcloud-core18-pi-armhf.img.xz"
+  lxd:
+    name: "LXD"
+    appliance_name: "LXD"
+    url_name: "lxd"
+    alias: "lxd"
+    logo: "https://assets.ubuntu.com/v1/3a24a2f9-lxd.png"
+    port: 80
+    iso_url:
+      raspberrypi: "https://cdimage.ubuntu.com/ubuntu-core/appliances/lxd-core18-pi.img.xz"
+      pc: "https://cdimage.ubuntu.com/ubuntu-core/appliances/lxd-core18-amd64.img.xz"
+    checksum:
+      raspberrypi: "ae32d6979cdc9546c0d2508986da057421be463cfbaa8a280487d310b1c5f211 *lxd-core18-pi.img.xz"
+      pc: "ac7ab9051f18baf607d4810b23a55e6230e48e20467ef9e03fb89a2f6df29bb9 *lxd-core18-amd64.img.xz"
+    extra_requirements:
+      raspberrypi: "We recommend using a Pi 4 with 4GB of RAM or more"
+    pi:
+      2: False
+      3: False
+      4: True
