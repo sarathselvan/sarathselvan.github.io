@@ -13,6 +13,7 @@
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
+    --light-color: #ffffff80;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -171,7 +172,7 @@ img{
     height: .18rem;
     left: 0;
     top: 2rem;
-    background-color:green;
+    background-color:var(--light-color);
 }
 
 /*===== HOME =====*/
