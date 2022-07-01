@@ -8,10 +8,10 @@
 }
 /*===== Colores =====*/
 :root{
-    --first-color: #ff0000;
-    --white-color: #FAFAFF;
-    --dark-color: #2a3b47;
-    --text-color: #697477;
+    --first-color: #5361FF;
+    --white-color: #000000;
+    --dark-color: #616f79;
+    --text-color: #ffffff;
 }
 /*===== Fuente y tipografia =====*/
 :root{
@@ -175,7 +175,7 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color:greenyellow;
+    background-color:var(--first-color);
     overflow: hidden;
     
     &__container{
