@@ -117,7 +117,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+    background-color:red;
 }
 
 /*===== NAV =====*/
@@ -221,7 +221,7 @@ img{
     padding-top: 1rem;
     width: 120px;
     height: 120px;
-    background-color: var(--first-color);
+    background-color:red);
     border-radius: 50%;
     overflow: hidden;
 }
