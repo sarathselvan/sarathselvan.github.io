@@ -360,7 +360,7 @@ img{
 
 /* ===== FOOTER=====*/
 .footer{
-    background-color: var(--dark-color2);
+    background-color:#bcbcbc;
 }
 .footer__container{
     row-gap: 2rem;
