@@ -197,8 +197,8 @@ img{
 /*.home__scroll-link{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
-    color: var(--white-color);*/
-}
+    color: var(--white-color);
+}*/
 .home__img{
     position: absolute;
     right: 0;
