@@ -190,7 +190,7 @@ img{
     color: var(--white-color);
     line-height: .8;
 }
-.home__title{   /*This line was .home__title span{ */
+.home__title{
     text-shadow: 0 30px 35px rgba(0, 0, 0, 0.5);
 }
 .home__scroll{
