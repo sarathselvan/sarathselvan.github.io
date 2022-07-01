@@ -160,6 +160,7 @@ img{
 /*=== Show menu ===*/
 .show{
     right: 0;
+    color: var(--first-color);
 }
 /*Active menu*/
 .active::after{
