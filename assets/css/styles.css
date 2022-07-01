@@ -173,7 +173,7 @@ img{
 
 /*===== HOME =====*/
 .home{
-    position: relative;
+    position: static;
     background-color: var(--first-color);
     overflow: hidden;
 }
@@ -182,6 +182,7 @@ img{
     row-gap: 5rem;
 }
 .home__title{
+    align-self: flex-end;
     font-size: var(--big-font-size);
     color: var(--white-color);
     line-height: .8;
