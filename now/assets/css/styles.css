@@ -321,6 +321,7 @@ img{
 .contact__container{
     row-gap: 2rem;
     color: var(--black-color);
+    background-color: var(--black-color);
 }
 .contact__subtitle{
     font-size: var(--normal-font-size);
