@@ -44,15 +44,16 @@ function scrollActive(){
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '800px',
-    duration: 5000,
+    distance: '80px',
+    duration: 50,
     reset: true
 })
 
 /*SCROLL HOME*/
 sr.reveal('.home__title', {})
-sr.reveal('.home__scroll', {delay: 200})
-sr.reveal('.home__img', {origin:'right', delay: 400})
+sr.reveal('.home__mode', {})
+sr.reveal('.home__scroll', {delay: 2})
+sr.reveal('.home__img', {origin:'right', delay: 4})
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img', {delay: 500})
