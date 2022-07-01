@@ -326,6 +326,7 @@ img{
 /* ===== CONTACT =====*/
 .contact{
     &__container{
+        justify-items: center;
         row-gap: 2rem;
     }
     &__subtitle{
