@@ -364,7 +364,7 @@ img{
     padding: .25rem 0;
 }
 .footer__link:hover{
-    color: var(--first-color);
+    color: var(--dark-color);
 }
 .footer__social{
     font-size: 1.4rem;
