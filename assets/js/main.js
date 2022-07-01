@@ -45,21 +45,21 @@ function scrollActive(){
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 500,
+    duration: 50,
     reset: true
 })
 
 /*SCROLL HOME*/
 sr.reveal('.home__title', {})
-sr.reveal('.home__scroll', {delay: 100})
-sr.reveal('.home__img', {origin:'right', delay: 100})
+sr.reveal('.home__scroll', {delay: 1})
+sr.reveal('.home__img', {origin:'right', delay: 1})
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img', {delay: 50})
-sr.reveal('.about__subtitle', {delay: 30})
-sr.reveal('.about__profession', {delay: 40})
-sr.reveal('.about__text', {delay: 50})
-sr.reveal('.about__social-icon', {delay: 60, interval: 20})
+sr.reveal('.about__img', {delay: 5})
+sr.reveal('.about__subtitle', {delay: 3})
+sr.reveal('.about__profession', {delay: 4})
+sr.reveal('.about__text', {delay: 5})
+sr.reveal('.about__social-icon', {delay: 6, interval: 2})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
