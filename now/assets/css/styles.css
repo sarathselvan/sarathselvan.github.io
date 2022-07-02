@@ -405,6 +405,7 @@ img{
     }
     .section-title{
         margin-bottom: 3rem;
+        color: #ffffff;
     }
     .section-title::after{
         width: 64px;
