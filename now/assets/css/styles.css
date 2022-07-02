@@ -119,7 +119,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color:var(--black-color);
+    background-color:var(--first-color);
 }
 
 /*===== NAV =====*/
@@ -150,7 +150,7 @@ img{
     color: var(--dark-color);
 }
 .nav__link:hover{
-    color:var(--first-color);
+    color:var(--black-color);
 }
 .nav__logo{
     color: var(--white-color);
