@@ -271,13 +271,13 @@ img{
     margin-right: var(--mb-2);
     margin-bottom: var(--mb-3);
     padding: .25rem .5rem;
-    background-color: var(--first-color);
-    color: var(--dark-color2);
+    background-color: var(--dark-color2);
+    color: var(--black-color);
     border-radius: .25rem;
 }
 .skills__name:hover{
-    background-color: var(--dark-color2);
-    color: var(--black-color);
+    background-color: var(--first-color);
+    color: var(--dark-color2);
 }
 .skills__img img{
     border-radius: .5rem;
