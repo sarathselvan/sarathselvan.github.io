@@ -50,7 +50,6 @@
 /*===== BASE =====*/
 *,::before,::after{
     background-color: #000000;
-    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
