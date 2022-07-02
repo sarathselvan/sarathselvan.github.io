@@ -49,6 +49,7 @@
 
 /*===== BASE =====*/
 *,::before,::after{
+    background-color: #000000;
     box-sizing: border-box;
 }
 html{
@@ -258,8 +259,8 @@ img{
 
 /* ===== SKILLS =====*/
 .skills__container{
-    row-gap: 2rem;
     background-color: var(--black-color);
+    row-gap: 2rem;
 }
 .skills__subtitle{
     color: var(--first-color);
