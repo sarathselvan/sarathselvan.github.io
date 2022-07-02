@@ -193,6 +193,24 @@ img{
 .home__title{
     text-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
 }
+/*.home__scroll{
+    align-self: flex-end;
+    background-color: #000000;
+    padding-bottom: var(--mb-4);
+}*/
+
+/*.home__scroll{
+    display: block;
+    background-color:#a1a1a1a8;
+    color: var(--white-color);
+    padding: .75rem 2.5rem;
+    margin-left: auto;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}*/
 .home__scroll{
     display: inline-block;
     font-size: var(--small-font-size);
@@ -202,14 +220,11 @@ img{
     background-color:#a1a1a1a8;
     border-radius: .25rem;
 }
-/*.home__scroll{
-    align-self: flex-end;
-    background-color: #000000;
-    padding-bottom: var(--mb-4);
-}*/
-/*.home__scroll-link{
+.home__scroll-link{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
     color: var(--white-color);
-}*/
+}
 .home__img{
     position: absolute;
     right: 0;
