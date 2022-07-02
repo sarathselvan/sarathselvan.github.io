@@ -227,11 +227,11 @@ img{
     border-radius: .25rem;
 }
 
-/*.home__scroll-link{
+.home__scroll-link{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
     color: var(--white-color);
-}*/
+}
 .home__img{
     position: absolute;
     right: 0;
