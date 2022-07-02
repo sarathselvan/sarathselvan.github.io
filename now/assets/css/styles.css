@@ -163,7 +163,7 @@ img{
 /*=== Show menu ===*/
 .show{
     right: 0;
-    color:var(--black-color);
+    color:var(--dark-color2);
 }
 
 /*Active menu*/
