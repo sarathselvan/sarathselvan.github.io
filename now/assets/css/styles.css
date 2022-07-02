@@ -200,7 +200,7 @@ img{
 }
 .home__scroll{
     align-self: flex-end;
-    background-color: #697477;
+    background-color: #ffffff;
     padding-bottom: var(--mb-4);
 }
 .home__scroll-link{
