@@ -204,7 +204,7 @@ img{
     padding-bottom: var(--mb-4);
 }*/
 
-.home__scroll{
+/*.home__scroll{
     display: block;
     background-color:#a1a1a1a8;
     color: var(--white-color);
@@ -215,7 +215,7 @@ img{
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
-}
+}*/
 
 .home__scroll{
     display: inline-block;
