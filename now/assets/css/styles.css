@@ -156,7 +156,7 @@ img{
     color: var(--white-color);
 }
 .nav__toggle{
-    color: var(--first-color);
+    color: var(--dark-color2);
     font-size: 1.5rem;
     cursor: pointer;
 }
