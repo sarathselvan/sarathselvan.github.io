@@ -191,7 +191,7 @@ img{
     line-height: .8;
 }
 .home__title{
-    text-shadow: 0 30px 35px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
 }
 .home__scroll{
     align-self: flex-end;
