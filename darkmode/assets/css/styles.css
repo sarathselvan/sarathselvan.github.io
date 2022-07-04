@@ -359,6 +359,7 @@ img{
     padding: .8rem;
     outline:#d3d3d3;
     border: 1.5px solid var(--dark-color2);
+    background-color: #000000;
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
