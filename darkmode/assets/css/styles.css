@@ -440,12 +440,6 @@ img{
     .nav__list{
         display: flex;
     }
-    .nav__mode{
-        margin-left: var(--mb-4);
-        margin-bottom: 0;
-        color: var(--dark-color2);
-        font-size: large;
-    }
     .nav__item{
         margin-left: var(--mb-4);
         margin-bottom: 0;
