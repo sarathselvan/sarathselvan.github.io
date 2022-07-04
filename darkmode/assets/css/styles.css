@@ -358,6 +358,7 @@ img{
     width: 100%;
     padding: .8rem;
     outline: none;
+    background-color: #697477;
     border: 1.5px solid var(--dark-color);
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
