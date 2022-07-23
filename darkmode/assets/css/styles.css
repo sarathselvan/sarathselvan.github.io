@@ -291,7 +291,7 @@ img{
     border-radius: .25rem;
 }
 .skills__name:hover{
-    background-color: var(red);
+    background-color: var(--first-color);
     color: var(--dark-color2);
 }
 .skills__img img{
