@@ -266,7 +266,7 @@ img{
         margin-bottom: var(--mb-3);
     }
     &__name{
-        display: inline-block;
+        display: list-item;
         font-size: var(--small-font-size);
         margin-right: var(--mb-2);
         margin-bottom: var(--mb-3);
