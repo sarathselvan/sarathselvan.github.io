@@ -266,12 +266,12 @@ img{
         margin-bottom: var(--mb-3);
     }
     &__name{
-        display: list-item;
+        display: inline-block;
         font-size: var(--small-font-size);
         margin-right: var(--mb-2);
         margin-bottom: var(--mb-3);
         padding: .25rem .5rem ;
-        background-color: var(blue);
+        /*background-color: var(blue);*/
         border-radius: .25rem;
 
         &:hover{
