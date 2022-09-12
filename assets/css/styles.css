@@ -272,11 +272,12 @@ img{
 }
 .skills__name{
     display: inline-block;
+    color: #000000;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
     margin-bottom: var(--mb-3);
     padding: .25rem .5rem;
-    background-color: var(#697477);
+    background-color: var(#6f7779);
     border-radius: .25rem;
 }
 .skills__name:hover{
