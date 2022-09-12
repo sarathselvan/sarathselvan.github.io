@@ -267,7 +267,7 @@ img{
     row-gap: 2rem;
 }
 .skills__subtitle{
-    color: var(#5361FF);
+    color:#000000;
     margin-bottom: var(--mb-3);
 }
 .skills__name{
