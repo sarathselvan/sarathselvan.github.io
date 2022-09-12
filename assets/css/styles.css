@@ -277,11 +277,11 @@ img{
     margin-right: var(--mb-2);
     margin-bottom: var(--mb-3);
     padding: .25rem .5rem;
-    background-color: var(#6f7779);
+    background-color: var(#646f71);
     border-radius: .25rem;
 }
 .skills__name:hover{
-    background-color: var(--first-color);
+    background-color:#707cfe;
     color: var(--white-color);
 }
 .skills__img img{
