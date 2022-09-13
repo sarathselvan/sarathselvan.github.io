@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #00ff2f;
+    --first-color: #5361ff;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -140,6 +140,7 @@ img{
     }
 }
 .nav__item{
+    color: #ffffff;
     margin-bottom: var(--mb-4);
 }
 .nav__link{
