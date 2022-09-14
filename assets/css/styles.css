@@ -348,7 +348,7 @@ img{
     border: 1.5px solid var(--dark-color);
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
-    border-radius: 10px 30px;
+    border-radius: 1px 10px;
 }
 .contact__button{
     display: block;
