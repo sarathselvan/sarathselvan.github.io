@@ -357,7 +357,7 @@ img{
     color: var(--white-color);
     padding: .75rem 2.5rem;
     margin-left: auto;
-    border-radius: .5rem;
+    border-radius: 10px 40px;
     border: none;
     outline: none;
     font-size: var(--normal-font-size);
