@@ -8,10 +8,11 @@
 }
 /*===== Colores =====*/
 :root{
-    --first-color: #000000;
-    --white-color: #fAFAFF;
+    --first-color: #f90a0a;
+    --white-color: #FAFAFF;
     --dark-color: #2a3b47;
     --text-color: #697477;
+    --black-color:#000000;
 }
 /*===== Fuente y tipografia =====*/
 :root{
@@ -160,7 +161,6 @@ img{
 /*=== Show menu ===*/
 .show{
     right: 0;
-    color: var(--first-color);
 }
 /*Active menu*/
 .active::after{
@@ -176,17 +176,17 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color:var(--first-color);
+    background-color: var(--first-color);
     overflow: hidden;
     
     &__container{
-        height: calc(10vh - var(--header-height));
+        height: calc(100vh - var(--header-height));
         row-gap: 5rem;
     }
     &__title{
         align-self: flex-end;
         font-size: var(--big-font-size);
-        color: var(--first-color);
+        color: var(--white-color);
         line-height: .5;
 
         & span{
@@ -200,7 +200,7 @@ img{
         &-link{
             writing-mode: vertical-lr;
             transform: rotate(-180deg);
-            color: var(--first-color);
+            color: var(--white-color);
         }
     }
 
@@ -225,7 +225,7 @@ img{
         padding-top: 1rem;
         width: 120px;
         height: 120px;
-        background-color: var(black);
+        background-color: var(--first-color);
         border-radius: 50%;
         overflow: hidden;
 
@@ -271,7 +271,7 @@ img{
         margin-right: var(--mb-2);
         margin-bottom: var(--mb-3);
         padding: .25rem .5rem ;
-        background-color: var(--white-color);
+        background-color: var(--text-color);
         border-radius: .25rem;
 
         &:hover{
@@ -279,22 +279,6 @@ img{
             color: var(--white-color);
         }
     }
-    
-    &__item{
-        display: inline-block;
-        font-size: var(--small-font-size);
-        margin-right: var(--mb-2);
-        margin-bottom: var(--mb-3);
-        padding: .25rem .5rem ;
-        background-color: var(blue);
-        border-radius: .25rem;
-
-        &:hover{
-            background-color: var(black);
-            color: var(--white-color);
-        }
-    }
-
     &__img{
         & img{
             border-radius: .5rem;
