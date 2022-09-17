@@ -363,7 +363,7 @@ img{
     color: var(--black-color);
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
-    border-radius: 3px 30px;
+    border-radius: 3px;
 }
 .contact__button{
     display: block;
@@ -371,7 +371,7 @@ img{
     color: var(--white-color);
     padding: .75rem 2.5rem;
     margin-left: auto;
-    border-radius: 3px 30px;
+    border-radius: 3px;
     border: none;
     outline: none;
     font-size: var(--normal-font-size);
