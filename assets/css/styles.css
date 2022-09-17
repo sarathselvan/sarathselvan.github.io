@@ -293,6 +293,7 @@ img{
 .skills__name:hover{
     background-color: var(--first-color);
     color: var(--dark-color2);
+    border-radius: 3px 10px;
 }
 .skills__img img{
     border-radius: .5rem;
