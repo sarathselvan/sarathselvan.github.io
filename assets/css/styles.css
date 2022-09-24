@@ -108,6 +108,7 @@ img{
 .bd-grid{
     max-width: 1024px;
     display: grid;
+    color: #ffffff;
     grid-template-columns: 100%;
     grid-column-gap: 2rem;
     width: calc(100% - 2rem);
