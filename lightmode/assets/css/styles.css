@@ -284,6 +284,7 @@ img{
 .skills__name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
+    border-radius: 3px 10px;
 }
 .skills__img img{
     border-radius: .5rem;
@@ -431,6 +432,7 @@ img{
     .nav__item{
         margin-left: var(--mb-4);
         margin-bottom: 0;
+        color: #ffffff;
     }
     .nav__toggle{
         display: none;
