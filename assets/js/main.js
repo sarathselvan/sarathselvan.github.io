@@ -76,6 +76,21 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
+const cursor = document.querySelector('.cursor');
+let mouseX = 0;
+let mouseY = 0;
 
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+function animateCursor() {
+  cursor.style.left = `${mouseX}px`;
+  cursor.style.top = `${mouseY}px`;
+  requestAnimationFrame(animateCursor);
+}
+
+animateCursor();
 
 
