@@ -186,7 +186,7 @@ section h2 {
 
 .contact:hover{
     background-color: #a1f995;
-    transition: background-color 2s ease ;
+    transition: background-color 8s ease ;
     text-align:center;
     cursor: pointer;
   
