@@ -518,38 +518,3 @@ img{
     }
 }
 
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-    .home__container {
-        height: 640px;
-    }
-    .home__img {
-        width: 500px;
-        right: 24%;
-    }
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: #1e1e1e;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    cursor: none; /* hide default cursor */
-  }
-  
-  .cursor {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #00f0ff;
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    z-index: 9999;
-    transition: transform 0.1s ease;
-    transform: translate(-50%, -50%);
-  }

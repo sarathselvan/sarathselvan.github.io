@@ -85,12 +85,5 @@ document.addEventListener('mousemove', (e) => {
   mouseY = e.clientY;
 });
 
-function animateCursor() {
-  cursor.style.left = `${mouseX}px`;
-  cursor.style.top = `${mouseY}px`;
-  requestAnimationFrame(animateCursor);
-}
-
-animateCursor();
 
 
