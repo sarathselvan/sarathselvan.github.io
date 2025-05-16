@@ -1,4 +1,3 @@
-// Smooth scroll for navigation links
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
@@ -9,7 +8,6 @@ document.querySelectorAll('.nav-links a').forEach(link => {
   });
 });
 
-// Contact form submission (placeholder functionality)
 document.getElementById('contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
   alert('Thank you for reaching out!');
