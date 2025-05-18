@@ -1,4 +1,6 @@
 /* Reset and base styles */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -95,6 +97,18 @@ color:#00c6ff
 .btn:hover {
   background-color: #6b51ffd6;
   color: #fff;
+}
+
+.element {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.element.in-view {
+  transform: scale(1.2);
 }
 
 /* Sections */
