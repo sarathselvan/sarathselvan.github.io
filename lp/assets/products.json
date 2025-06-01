@@ -2,41 +2,41 @@
   {
     "name": "Silk Saree",
     "price": 2499,
-    "image": "assets/images/saree1.jpg"
+    "image": "assets/image/saree1.jpg"
   },
   {
     "name": "Designer Kurti",
     "price": 1499,
-    "image": "assets/images/kurti1.jpg"
+    "image": "assets/image/kurti1.jpg"
   },
   {
     "name": "Chiffon Saree",
     "price": 1999,
-    "image": "assets/images/saree2.jpg"
+    "image": "assets/image/saree2.jpg"
   },
   {
     "name": "Silk Saree",
     "price": 2499,
-    "image": "assets/images/saree1.jpg"
+    "image": "assets/image/saree1.jpg"
   },
   {
     "name": "Silk Saree",
     "price": 2499,
-    "image": "assets/images/saree1.jpg"
+    "image": "assets/image/saree1.jpg"
   },
   {
     "name": "Silk Saree",
     "price": 2499,
-    "image": "assets/images/saree1.jpg"
+    "image": "assets/image/saree1.jpg"
   },
   {
     "name": "Silk Saree",
     "price": 2499,
-    "image": "assets/images/saree1.jpg"
+    "image": "assets/image/saree1.jpg"
   },
   {
     "name": "Silk Saree",
     "price": 2499,
-    "image": "assets/images/saree1.jpg"
+    "image": "assets/image/saree1.jpg"
   }
 ]

@@ -15,7 +15,7 @@ body {
 header {
   background: #e2cc8900;
   border-bottom: 1px solid #ddd;
-  display: flex;
+  position: fixed;
   font-size: 1.1rem;
   justify-content: space-between;
   padding: 1rem 2rem;
