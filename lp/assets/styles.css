@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e2cc8991;
+  color: #333;
+}
+
+
+.logo {
+  font-size: 2.1rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffc802;
+}
+
+header {
+  background: #e2cc8900;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  margin-right:2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  color: #000000;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(0px);
+  zoom: 1.1;
+  
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card .details {
+  padding: 1rem;
+}
+
+.details h3 {
+  margin: 0 0 0.5rem;
+}
+
+.details p {
+  margin: 0.5rem 0;
+  color: #888;
+}
+
+button {
+  background-color: #0133ea;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
